@@ -1,0 +1,63 @@
+
+/* Style sheet for the landing page project 02/01/2024*/
+/*
+font-family: 'Sixtyfour', sans-serif;
+font-family: 'Workbench', sans-serif;
+*/
+
+html, body {
+	/*background-color: red;*/
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: khaki;
+}
+
+section#intro {
+	background-image: url('back.jpg');
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+div#content {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 5.5em;
+	font-family: 'Sixtyfour', sans-serif;
+	letter-spacing: 5px;
+	color: whitesmoke;
+	text-shadow: 4px 0px 6px black;
+}
+
+a#btn {
+	background-color: ghostwhite;
+	border-radius: 20px;
+	box-shadow: 3px 2px 8px mediumblue;
+	color: black;
+	font-family: 'Workbench', sans-serif;
+	font-size: 2.5em;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: all 1s;
+}
+
+a#btn:hover {
+	background-color: mediumblue;
+	color: ghostwhite;
+	border-color: beige;
+	border-width: 3px;
+}
+
+p {
+	font-family: 'Workbench', sans-serif;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
